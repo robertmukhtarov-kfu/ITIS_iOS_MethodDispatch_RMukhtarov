@@ -19,6 +19,15 @@ class ViewController: UIViewController {
         
         let car = Car()
         car.moveTo(x: 20, y: 20) // direct
+
+        let cat: Animal = Cat()
+        cat.makeNoise() // Table
+        
+        let aircraft = Aircraft()
+        aircraft.fly() // Table
+        
+        let helicopter = Helicopter()
+        helicopter.fly() // Table
     }
 }
 
