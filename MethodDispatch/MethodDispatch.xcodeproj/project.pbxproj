@@ -13,6 +13,7 @@
 		E779ABA626F8E467008E5502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E779ABA426F8E467008E5502 /* Main.storyboard */; };
 		E779ABA826F8E469008E5502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E779ABA726F8E469008E5502 /* Assets.xcassets */; };
 		E779ABAB26F8E469008E5502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E779ABA926F8E469008E5502 /* LaunchScreen.storyboard */; };
+		E779ABB426F8E5A8008E5502 /* StaticDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E779ABB326F8E5A8008E5502 /* StaticDispatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E779ABA726F8E469008E5502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E779ABAA26F8E469008E5502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E779ABAC26F8E469008E5502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E779ABB326F8E5A8008E5502 /* StaticDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDispatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E779AB9D26F8E467008E5502 /* MethodDispatch */ = {
 			isa = PBXGroup;
 			children = (
+				E779ABB226F8E597008E5502 /* StaticDispatch */,
 				E779AB9E26F8E467008E5502 /* AppDelegate.swift */,
 				E779ABA026F8E467008E5502 /* SceneDelegate.swift */,
 				E779ABA226F8E467008E5502 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				E779ABAC26F8E469008E5502 /* Info.plist */,
 			);
 			path = MethodDispatch;
+			sourceTree = "<group>";
+		};
+		E779ABB226F8E597008E5502 /* StaticDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				E779ABB326F8E5A8008E5502 /* StaticDispatch.swift */,
+			);
+			path = StaticDispatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 				E779ABA326F8E467008E5502 /* ViewController.swift in Sources */,
 				E779AB9F26F8E467008E5502 /* AppDelegate.swift in Sources */,
 				E779ABA126F8E467008E5502 /* SceneDelegate.swift in Sources */,
+				E779ABB426F8E5A8008E5502 /* StaticDispatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
