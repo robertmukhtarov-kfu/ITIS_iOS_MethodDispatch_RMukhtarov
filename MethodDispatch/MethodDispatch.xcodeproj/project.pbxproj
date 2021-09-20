@@ -82,12 +82,16 @@
 				E779ABB926F8F032008E5502 /* NSObjectDispatchTypes.swift */,
 			);
 			path = NSObject;
+            sourceTree = "<group>";
+        };
 		E779ABB526F8E9D1008E5502 /* TableDispatch */ = {
 			isa = PBXGroup;
 			children = (
 				E779ABB626F8EA16008E5502 /* TableDispatch.swift */,
 			);
 			path = TableDispatch;
+            sourceTree = "<group>";
+        };
 		E779ABB226F8E597008E5502 /* StaticDispatch */ = {
 			isa = PBXGroup;
 			children = (
