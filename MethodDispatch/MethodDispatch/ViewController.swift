@@ -28,6 +28,10 @@ class ViewController: UIViewController {
         
         let helicopter = Helicopter()
         helicopter.fly() // Table
+      
+        let childNSObject = ChildNSObject()
+        childNSObject.printDescription() // table
+        childNSObject.sendMessage() // message
+        childNSObject.printSomething() // direct
     }
 }
-
